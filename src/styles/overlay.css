@@ -1,0 +1,26 @@
+
+.overlay{
+    position: fixed;
+    left: 3vw;
+    bottom: 10vh;
+    height: 20vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.overlay a{
+    font-weight: bold;
+}
+
+.overlay a img{
+    width: 2vw;
+    cursor: pointer;
+}
+
+.overlay a img:hover{
+    transition: ease .3s;
+    scale: 1.1;
+}

@@ -1,0 +1,58 @@
+
+.title-page{
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 5vw;
+}
+
+.title-page *{
+    margin: .2em;
+    padding-inline: 0;
+    margin-left: 0;
+}
+
+
+h3 {
+    font-size: 1.6em;
+}
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    text-decoration: underline;
+
+}
+h2 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: #373434;
+
+
+}
+.title-page p {
+    text-indent: .5em;
+    margin: 2em;
+    margin-left: 0;
+    padding-left: 0;
+    width: 50vw;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.title-page button{
+    height: 4vh;
+    width: 15vw;
+    font-size: 1.2em;
+    border-radius: 10px;
+    padding-inline: .4em;
+    border: 2px solid black;
+    background-color: rgba(139, 137, 137, 0) ;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.title-page button:hover{
+    background-color: black;
+    color: rgba(139, 137, 137, 0.87);
+}
