@@ -1,0 +1,45 @@
+
+.about{
+    width: 65vw;
+    margin: 0 auto;
+    padding-inline: 15vw;
+    height: 80vh;
+}
+
+.about-section-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-word-wrap {
+    width: 30vw;
+    
+}
+
+.about-img-wrap {
+    width: 20vw;
+    display: inline;
+
+}
+
+.about-img-wrap img{
+    width: 20vw;
+    border-radius: 25px;
+}
+
+.about h4{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: underline;
+    width: 30vw;
+
+
+}
+
+.about p {
+    font-weight: bold;
+    width: 35vw;
+    margin-right: 5vw;
+}

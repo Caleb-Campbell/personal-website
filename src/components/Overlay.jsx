@@ -8,9 +8,9 @@ import github from '../assets/github.png'
 export default function Overlay() {
   return (
     <div className='overlay'>
-        <a><img src={linkedin} /></a>
-        <a><img src={github} /></a>
-        <a><img src={instagram} /></a>
+        <a href='https://www.linkedin.com/in/calebcampbell-/'><img src={linkedin} /></a>
+        <a href='https://github.com/Caleb-Campbell'><img src={github} /></a>
+        <a href='https://www.instagram.com/_caleb_campbell/'><img src={instagram} /></a>
     </div>
   )
 }

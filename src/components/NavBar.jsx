@@ -2,7 +2,12 @@ import React from 'react'
 import '../styles/navbar.css'
 import logo from '../assets/logo/transparent-black.png'
 
-function NavBar(props) {
+function NavBar({resumeModal, setResumeModal}) {
+
+  const handleResumeClick = () => {
+    setResumeModal(!resumeModal)
+  }
+
   return (
     <nav>
         <div className='nav-logo'>
@@ -10,12 +15,12 @@ function NavBar(props) {
         </div>
         <div className='nav-buttons'>
             <div className='navigations'>
-                <a>About</a>
+                <a href='#about'>About</a>
                 <a>Experience</a>
                 <a>Work</a>
                 <a>Contact</a>
             </div>
-            <button>Resume</button>
+            <button onClick={handleResumeClick}>Resume</button>
         </div>
     </nav>
   )

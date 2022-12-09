@@ -6,14 +6,20 @@ import './App.css'
 import NavBar from './components/NavBar'
 import TitlePage from './components/TitlePage'
 import Overlay from './components/Overlay'
+import ResumeModal from './components/ResumeModal'
+import About from './components/About'
 
 function App() {
 
+  const [resumeModal, setResumeModal] = useState(false)
+
   return (
     <div className="App">
+      {resumeModal && (<ResumeModal resumeModal={resumeModal} setResumeModal={setResumeModal} />)}
     <Overlay />
-    <NavBar />
+    <NavBar resumeModal={resumeModal} setResumeModal={setResumeModal} />
     <TitlePage />
+    <About />
     </div>
   )
 }
