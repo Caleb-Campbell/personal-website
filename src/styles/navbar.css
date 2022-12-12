@@ -26,6 +26,12 @@ nav {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+.nav-buttons button:hover {
+    background-color: black;
+    color: rgba(139, 137, 137, 0.87);
+    box-shadow: 5px 5px rgb(67, 66, 66, .5);
+}
+
 .navigations{
     display: flex;
     justify-content: space-around;

@@ -6,23 +6,6 @@
     height: 80vh;
 }
 
-.about-section-one {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.about-word-wrap {
-    width: 30vw;
-    
-}
-
-.about-img-wrap {
-    width: 20vw;
-    display: inline;
-
-}
-
 .about-img-wrap img{
     width: 20vw;
     border-radius: 25px;
@@ -42,4 +25,53 @@
     font-weight: bold;
     width: 35vw;
     margin-right: 5vw;
+}
+
+.about-menu {
+    background-color: rgba(139, 137, 137) ;
+    border-radius: 15px;
+    height: 40vh;
+
+    display: flex;
+}
+
+.about-menu:hover{
+    box-shadow: 5px 5px rgb(67, 66, 66, .5);
+    transition: .4s ease;
+
+}
+
+.about-menu-navigation {
+    border: 2px solid black;
+    background-color: rgba(39, 39, 39, 0.5);
+    width: 30%;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.about-menu-slide {
+    border: 2px solid black;
+    border-left: none;
+    width: 70%;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.about-menu-navigation ul {
+    height: 100%;
+    margin: 0;
+
+    display: flex;
+    flex-flow: column nowrap;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.about-menu-navigation ul * {
+    cursor: pointer;
+    font-size: 1.5em;
+    color: rgb(177, 175, 175);
+    font-family: 'Rubik Mono One', sans-serif;
+
 }
