@@ -1,29 +1,67 @@
-import React from 'react'
+import React, { useState } from 'react'
 import wedding from '../assets/wedding.jpg'
 import bloom from '../assets/bloom.png'
+import iceland from '../assets/iceland.jpg'
+
+
 
 export default function AboutMenu() {
+
+  const data = {
+    about: {
+      text: `Hey there! It's important to know who you'll be working with. First and foremost, I learned a long time ago that few things bring more satisfaction in life than doing a job well. I found an immense amount of this feeling while learning to code. I distinctly remember the first webpage, server, database I made, and the pride I felt in creating these things.`,
+      img: iceland
+    },
+    life: {
+      text: `I grew up in Spokane Washington. I am a rocket enthusiast, and I am currently trying into getting into model building. My wife just got me this super cool Saturn V for Christmas because she is just the best.`,
+      img: bloom
+    },
+    education: {
+      text: `diggy diggy`,
+      img: bloom
+    },
+    projects: {
+      text: `I have built a few cool things, and hope to create more. Just give me some ideas please.`,
+      img: bloom
+    },
+    experience: {
+      text: `I have a lot of menial labor jobs, which doesn't look awesome, but hey I can work.`,
+      img: bloom
+    },
+    skills: {
+      text: `I use React, Express, and SQL to create projects that make me really happy.`,
+      img: bloom
+    },
+  }
+  const [textToUse, setTextToUse] = useState('about')
+
+  const setMenu = (e) => {
+    console.log(e.target.id)
+    setTextToUse(e.target.id)
+  }
+
+
   return (
     <div className='about-menu'>
       <div className='about-menu-navigation'>
         <ul>
-          <li>About</li>
-          <li>Life</li>
-          <li>Education</li>
-          <li>Experience</li>
-          <li>Projects</li>
-          <li>Skills</li>
+          <li onClick={setMenu} id='about'>About</li>
+          <li onClick={setMenu} id='education'>Education</li>
+          <li onClick={setMenu} id='experience'>Experience</li>
+          <li onClick={setMenu} id='projects'>Projects</li>
+          <li onClick={setMenu} id='skills'>Skills</li>
+          <li onClick={setMenu} id='life'>Life</li>
         </ul>
       </div>
       <div className='about-menu-slide'>
-        
+        <p className='about-menu-slide-p'>{data[textToUse].text}</p>
       </div>
     </div>
   )
 }
 
 
-{/* <p>Hey there! It's important to know who you'll be working with. First and foremost, I learned a long time ago that few things bring more satisfaction in life than doing a job well. I found an immense amount of this feeling while learning to code. I distinctly remember the first webpage, server, database I made, and the pride I felt in creating these things.</p>
+{/* <p></p>
 </div>
 <div className='about-img-wrap'>
   <img src={wedding} />

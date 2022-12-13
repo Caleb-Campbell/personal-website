@@ -5,6 +5,7 @@ import '../styles/about.css'
 import AboutMenu from './AboutMenu'
 
 export default function About() {
+
   return (
     <div id='about' className='about'>
 
