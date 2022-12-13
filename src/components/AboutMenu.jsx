@@ -17,11 +17,7 @@ export default function AboutMenu() {
       img: bloom
     },
     education: {
-      text: `diggy diggy`,
-      img: bloom
-    },
-    projects: {
-      text: `I have built a few cool things, and hope to create more. Just give me some ideas please.`,
+      text: `I began my post-highschool education at BYU-Idaho. I enrolled as a Web Development and Design major. I immediately loved the classes that taught me about the web and taught me programming skills. However, these classes were all isolated, and very slow. I never got to see the full picture, just tiny snippits. So in addition to my schoolwork and job, I began taking free courses online in HTML, CSS, and JavaScript. I began learning much more in my dorm than in the classroom, and decided I would go for a less-traditional means of education with the hope of learning more at a pace suited better for myself. I completed the 2 week free trial offered by BloomTech, and was immediately hooked. I felt in control of my learning pace and got the depth I wanted. I learned best practices for the industry, as well as how to contribute to projects and keep a timeline. `,
       img: bloom
     },
     experience: {
@@ -48,7 +44,6 @@ export default function AboutMenu() {
           <li onClick={setMenu} id='about'>About</li>
           <li onClick={setMenu} id='education'>Education</li>
           <li onClick={setMenu} id='experience'>Experience</li>
-          <li onClick={setMenu} id='projects'>Projects</li>
           <li onClick={setMenu} id='skills'>Skills</li>
           <li onClick={setMenu} id='life'>Life</li>
         </ul>
@@ -70,7 +65,7 @@ export default function AboutMenu() {
 <section className='about-section-one'>
   <div className='about-word-wrap'>
     <h4>Education</h4>
-    <p>I began my post-highschool education at BYU-Idaho. I enrolled as a Web Development and Design major. I immediately loved the classes that taught me about the web and taught me programming skills. However, these classes were all isolated, and very slow. I never got to see the full picture, just tiny snippits. So in addition to my schoolwork and job, I began taking free courses online in HTML, CSS, and JavaScript. I began learning much more in my dorm than in the classroom, and decided I would go for a less-traditional means of education with the hope of learning more at a pace suited better for myself. I completed the 2 week free trial offered by BloomTech, and was immediately hooked. I felt in control of my learning pace and got the depth I wanted. I learned best practices for the industry, as well as how to contribute to projects and keep a timeline. </p>
+    <p></p>
   </div>
   <div className='about-img-wrap'>
     <img src={bloom} /> */}

@@ -15,6 +15,10 @@ nav {
     align-items: center;
 }
 
+* {
+    color: black;
+}
+
 .nav-buttons button {
     height: 3vh;
     font-size: 1em;
