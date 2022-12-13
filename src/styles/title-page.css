@@ -58,3 +58,31 @@ h2 {
     box-shadow: 5px 5px rgb(67, 66, 66, .5);
 
 }
+
+@media (max-width:500px) {
+
+    h1{
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    .title-page p {
+        width: 90vw;
+        font-size: 1em;
+    }
+
+    .title-page button {
+        width: 80%;
+        margin: 1em auto;
+        text-align: center;
+        margin-inline: 12%;
+        
+    }
+}

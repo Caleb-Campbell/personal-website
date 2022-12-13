@@ -53,3 +53,19 @@ nav {
 .nav-logo img {
     width: 10vw;
 } 
+
+@media (max-width: 500px) {
+    nav {
+        width: 100%;
+        flex-flow: column nowrap;
+    }
+    .nav-logo {
+        border: 1px solid red;
+        width: 40vw;
+    }
+    .nav-logo img {
+        width: 30vw;
+        height: 30vw;
+
+    }
+}
