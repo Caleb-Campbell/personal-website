@@ -60,7 +60,6 @@ nav {
         flex-flow: column nowrap;
     }
     .nav-logo {
-        border: 1px solid red;
         width: 40vw;
     }
     .nav-logo img {
