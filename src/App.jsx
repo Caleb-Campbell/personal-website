@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
@@ -9,9 +9,15 @@ import Overlay from './components/Overlay'
 import ResumeModal from './components/ResumeModal'
 import About from './components/About'
 
+
+
 function App() {
 
+  console.log(window)
+
   const [resumeModal, setResumeModal] = useState(false)
+  const [mobileView, setMobileView] = useState(false)
+
 
   return (
     <div className="App">
