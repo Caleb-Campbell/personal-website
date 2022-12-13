@@ -11,7 +11,7 @@ function NavBar({resumeModal, setResumeModal}) {
   return (
     <nav>
         <div className='nav-logo'>
-            <img src={logo} />
+            <img  src={logo} />
         </div>
         <div className='nav-buttons'>
             <div className='navigations'>
