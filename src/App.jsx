@@ -8,6 +8,7 @@ import TitlePage from './components/TitlePage'
 import Overlay from './components/Overlay'
 import ResumeModal from './components/ResumeModal'
 import About from './components/About'
+import Projects from './components/Projects'
 
 
 
@@ -43,6 +44,7 @@ function App() {
     <NavBar mobileView={mobileView} resumeModal={resumeModal} setResumeModal={setResumeModal} />
     <TitlePage />
     <About />
+    <Projects />
     </div>
   )
 }
