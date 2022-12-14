@@ -29,4 +29,8 @@
     .overlay a img {
         width: 5vw;
     }
+
+    .overlay {
+        left: 1.5vw;
+    }
 }
