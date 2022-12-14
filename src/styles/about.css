@@ -83,7 +83,7 @@
 
     .about {
         padding: 0;
-        width: 100vw;
+        width: 98vw;
         margin: 0 auto;
 
     }
@@ -107,7 +107,7 @@
     }
 
     .about-menu-slide p {
-        width: 90%;
+        width: 80%;
         font-size: .9em;
         padding: 2em;
     }
