@@ -15,8 +15,13 @@ function App() {
 
   console.log(window)
 
+  useEffect(()=> {
+    windowSize()
+  },[])
+
+
   const [resumeModal, setResumeModal] = useState(false)
-  const [mobileView, setMobileView] = useState(true)
+  const [mobileView, setMobileView] = useState(false)
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
   const windowSize = () => { setWindowWidth(window.innerWidth)

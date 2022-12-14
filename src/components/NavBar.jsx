@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import '../styles/navbar.css'
-import logo from '../assets/logo/transparent-black.png'
+import logo from '../assets/logo/simple-white.png'
 import hamburger from '../assets/hamburger.png'
 
 function NavBar({resumeModal, setResumeModal, mobileView}) {

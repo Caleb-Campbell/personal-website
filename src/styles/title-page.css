@@ -21,7 +21,6 @@ h1 {
     font-family: 'Rubik Mono One', sans-serif;
     font-weight: bold;
     font-size: 4em;
-    text-decoration: underline;
 
 }
 h2 {
@@ -48,7 +47,7 @@ h2 {
     font-size: 1.2em;
     border-radius: 10px;
     padding-inline: .4em;
-    border: 2px solid black;
+    border: 2px solid #d9d9d9 ;;
     background-color: rgba(139, 137, 137, 0) ;
     font-family: 'Rubik Mono One', sans-serif;
 }
