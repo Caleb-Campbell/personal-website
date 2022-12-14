@@ -24,3 +24,9 @@
     transition: ease .3s;
     scale: 1.1;
 }
+
+@media (max-width: 500px) {
+    .overlay a img {
+        width: 5vw;
+    }
+}
