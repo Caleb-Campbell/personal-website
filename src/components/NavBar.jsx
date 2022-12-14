@@ -33,10 +33,10 @@ function NavBar({resumeModal, setResumeModal, mobileView}) {
             (
             <div className="mobile-navigations">
                 <button className='mobile-resume' onClick={handleResumeClick}>Resume</button>
-                <a href='#about'>About</a>
-                <a>Experience</a>
-                <a>Work</a>
-                <a>Contact</a>
+                <a onClick={toggleMenu} href='#about'>About</a>
+                <a onClick={toggleMenu}>Experience</a>
+                <a onClick={toggleMenu}>Work</a>
+                <a onClick={toggleMenu}>Contact</a>
                 <button onClick={toggleMenu} className='close-mobile'>Close</button>
             </div>
             )
