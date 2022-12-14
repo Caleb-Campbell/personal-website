@@ -1,9 +1,12 @@
 :root {
-  color: #131212;
-  background-color: rgba(139, 137, 137, 0.87) ;
-
+  /* background-color: rgba(139, 137, 137, 0.87) ; */
+  /* background-color: rgb(147, 148, 137); */
+  background-color: #374065;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+:root * {
+  color: #bfc0c0 ;
 }

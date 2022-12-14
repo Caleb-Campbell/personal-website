@@ -40,7 +40,7 @@ h2 {
     font-size: 1.2em;
 }
 
-.title-page button{
+.contact-me{
     height: 4vh;
     width: 15vw;
     font-size: 1.2em;
@@ -65,27 +65,32 @@ h2 {
     }
 
     h1{
-        font-size: 3em;
+        font-size: 2em;
+        text-decoration: none;
     }
 
     h3 {
-        font-size: 1.5em;
+        font-size: .7em;
     }
 
     h2 {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 
     .title-page p {
         width: 80vw;
-        font-size: 1em;
+        font-size: .8em;
     }
 
     .title-page button {
-        width: 80%;
-        margin: 1em auto;
-        text-align: center;
-        margin-inline: 12%;
+        width: 60%;
+        margin: 0 auto;
         
+    }
+
+    .title-btn-wrap {
+        width: 70vw;
+        margin: 0 auto;
+        padding: 0;
     }
 }
