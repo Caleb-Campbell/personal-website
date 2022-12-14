@@ -14,6 +14,8 @@
 
 h3 {
     font-size: 1.6em;
+    color: #ef8354 !important; 
+
 }
 h1 {
     font-family: 'Rubik Mono One', sans-serif;
@@ -54,6 +56,7 @@ h2 {
 .title-page button:hover{
     background-color: black;
     color: rgba(139, 137, 137, 0.87);
+
     box-shadow: 5px 5px rgb(67, 66, 66, .5);
 
 }
@@ -66,6 +69,7 @@ h2 {
 
     h1{
         font-size: 2em;
+        font-weight: 300;
         text-decoration: none;
     }
 
@@ -74,6 +78,7 @@ h2 {
     }
 
     h2 {
+        font-weight: 300;
         font-size: 1.5em;
     }
 
@@ -83,7 +88,7 @@ h2 {
     }
 
     .title-page button {
-        width: 60%;
+        width: 80%;
         margin: 0 auto;
         
     }
