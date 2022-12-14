@@ -16,7 +16,7 @@ function App() {
   console.log(window)
 
   const [resumeModal, setResumeModal] = useState(false)
-  const [mobileView, setMobileView] = useState(false)
+  const [mobileView, setMobileView] = useState(true)
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
   const windowSize = () => { setWindowWidth(window.innerWidth)
@@ -29,7 +29,7 @@ function App() {
     return ()=> {
       window.removeEventListener('resize', windowSize)
     }
-  }, [windowWidth])
+  }, [])
 
   return (
     <div className="App">
