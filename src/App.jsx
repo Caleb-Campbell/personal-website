@@ -17,13 +17,25 @@ function App() {
 
   const [resumeModal, setResumeModal] = useState(false)
   const [mobileView, setMobileView] = useState(false)
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
+  const windowSize = () => { setWindowWidth(window.innerWidth)
+  windowWidth < 500 ? setMobileView(true) : setMobileView(false)
+  }
+
+  useEffect(()=> {
+    window.addEventListener('resize', windowSize)
+
+    return ()=> {
+      window.removeEventListener('resize', windowSize)
+    }
+  }, [windowWidth])
 
   return (
     <div className="App">
       {resumeModal && (<ResumeModal resumeModal={resumeModal} setResumeModal={setResumeModal} />)}
     <Overlay />
-    <NavBar resumeModal={resumeModal} setResumeModal={setResumeModal} />
+    <NavBar mobileView={mobileView} resumeModal={resumeModal} setResumeModal={setResumeModal} />
     <TitlePage />
     <About />
     </div>
