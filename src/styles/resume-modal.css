@@ -27,7 +27,7 @@
     top: 20px;
 }
 
-.resume-form{
+.resume-form {
     width: 30vw;
     height: 30vh;
     background-color: rgba(139, 137, 137) ;
@@ -63,6 +63,8 @@
     background-color: rgba(139, 137, 137, 0) ;
     font-family: 'Rubik Mono One', sans-serif;
     text-align: center;
+    text-decoration: none;
+
 
     display: flex;
     align-content: center;
@@ -73,5 +75,24 @@
     background-color: black;
     color: rgba(139, 137, 137, 0.87);
     box-shadow: 5px 5px rgb(67, 66, 66, .5);
+}
+
+@media (max-width: 500px) {
+
+    .resume-form {
+        width: 90vw;
+    }
+
+    .resume-button {
+        font-size: 1em;
+        width: 40%;
+        height: 20%;
+    }
+
+    .modal-btn {
+        height: 5%;
+        width: 20%;
+    }
+
 }
 

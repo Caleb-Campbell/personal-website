@@ -9,6 +9,7 @@ function NavBar({resumeModal, setResumeModal, mobileView}) {
 
   const handleResumeClick = () => {
     setResumeModal(!resumeModal)
+    setOpenMenu(false)
   }
 
     const toggleMenu = () => {
@@ -31,6 +32,7 @@ function NavBar({resumeModal, setResumeModal, mobileView}) {
           openMenu && 
             (
             <div className="mobile-navigations">
+                <button className='mobile-resume' onClick={handleResumeClick}>Resume</button>
                 <a href='#about'>About</a>
                 <a>Experience</a>
                 <a>Work</a>
