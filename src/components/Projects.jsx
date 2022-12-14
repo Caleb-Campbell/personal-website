@@ -1,16 +1,16 @@
 import React, {useState} from 'react'
 import '../styles/projects.css'
 
-import regolith from '../assets/regolith.png'
-import nasa from '../assets/nasa.png'
-import auth from '../assets/auth.png'
-import pizza from '../assets/pizza.png'
+import regolith from '../assets/project-img/regolith.png'
+import nasa from '../assets/project-img/nasa.png'
+import auth from '../assets/project-img/auth.png'
+import pizza from '../assets/project-img/pizza.png'
 
 const projects = [
     {
         name: 'Organizational App',
         description: `A scratch-built organization app I continue to develop. It's purpose is to allow users to create sticky notes and other widgets, save their information, and pull their saved notes and widgets from a database. I am currently looking at free hosting options for my database and server.`,
-        img: regolith,
+        img: '../assets/project-img/regolith.png',
         link: `https://github.com/Caleb-Campbell/word-processor`,
         skills: ['HTML', 'CSS', 'React', 'Hooks', 'API', 'SQLite3','NodeJS', 'ExpressJS']
     },
@@ -51,6 +51,10 @@ export default function Projects() {
             return (
                 <div className='project'>
                     <h5>{item.name}</h5>
+                    <div style={{background: `url(${item.img})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}} className='img-back'>
+                    {/* <img src={item.img} /> */}
+                    </div>
+
                     <p>{item.description}</p>
                 </div>
             )
