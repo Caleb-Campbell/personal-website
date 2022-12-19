@@ -13,7 +13,7 @@ export default function AboutMenu() {
       img: iceland
     },
     life: {
-      text: `I grew up and attended high school in Spokane, Washington. After Highschool, I volunteered to be a full-time Missionary for the Church of Jesus`,
+      text: `After graduating highschool, I volunteered to be a full-time missionary for the Church of Jesus Christ of Latter-Day Saints. My purpose in life quickly changed, and I went 2 years without watching tv, listening to music, or even seeing my family, all to devote my time fully to helping others. In the height of the COVID pandemic, I helped share messages of hope with people virtually, and participated and lead many charitable projects to feed, clothe, and uplift the people of Riverside. For most of my 2 year service, I personally lead 20-30 other missionaries, helping them set and be accountable to their goals, stay productive, and feel encouraged. Although an untraditional form of education, I learned social, goal-setting, and leadership skills from my service as a missionary.`,
       img: bloom
     },
     education: {
@@ -21,7 +21,7 @@ export default function AboutMenu() {
       img: bloom
     },
     experience: {
-      text: `I have a lot of menial labor jobs, which doesn't look awesome, but hey I can work.`,
+      text: `Although I don't have any career experience, I have kept`,
       img: bloom
     },
     skills: {
@@ -45,7 +45,7 @@ export default function AboutMenu() {
           <li onClick={setMenu} id='education'>Education</li>
           <li onClick={setMenu} id='experience'>Experience</li>
           <li onClick={setMenu} id='skills'>Skills</li>
-          <li onClick={setMenu} id='life'>Life</li>
+          <li onClick={setMenu} id='life'>Volunteering</li>
         </ul>
       </div>
       <div className='about-menu-slide'>
