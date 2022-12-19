@@ -21,11 +21,11 @@ export default function AboutMenu() {
       img: bloom
     },
     experience: {
-      text: `Although I don't have any career experience, I have kept`,
+      text: `Although I don't have any experience working as a web developer, I have worked from the time I was 14. I can say without reservation that I hold the skill of hard-work. In my experiences working at carnivals, carpet cleaning, painting, food services, construction, and farm work, I have learned how to communicate effectively with a customer, ensure a quality performance, and I learned to pay attention to the details. `,
       img: bloom
     },
     skills: {
-      text: `I use React, Express, and SQL to create projects that make me really happy.`,
+      text: `React, `,
       img: bloom
     },
   }
