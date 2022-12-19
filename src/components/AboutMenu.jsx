@@ -9,11 +9,11 @@ export default function AboutMenu() {
 
   const data = {
     about: {
-      text: `Hey there! It's important to know who you'll be working with. First and foremost, I learned a long time ago that few things bring more satisfaction in life than doing a job well. I found an immense amount of this feeling while learning to code. I distinctly remember the first webpage, server, database I made, and the pride I felt in creating these things.`,
+      text: `Hey there! It's important to know who you'll be working with. First and foremost, I learned a long time ago that few things bring more satisfaction in life than doing a job well. I found an immense amount of this feeling while learning to code. I distinctly remember the first webpage, server, database I made, and the pride I felt in creating these things. `,
       img: iceland
     },
     life: {
-      text: `I grew up in Spokane Washington. I am a rocket enthusiast, and I am currently trying into getting into model building. My wife just got me this super cool Saturn V for Christmas because she is just the best.`,
+      text: `I grew up and attended high school in Spokane, Washington. After Highschool, I volunteered to be a full-time Missionary for the Church of Jesus`,
       img: bloom
     },
     education: {
