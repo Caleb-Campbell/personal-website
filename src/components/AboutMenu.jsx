@@ -25,7 +25,7 @@ export default function AboutMenu() {
       img: bloom
     },
     skills: {
-      text: `React, `,
+      text: `React, HTML, CSS, React-Router, NodeJS, ExpressJS, KnexJS, SQLite3,  `,
       img: bloom
     },
   }
